@@ -21,13 +21,13 @@ class button{
             fill(pressedColor);
             rect(x, y, w, h);
             fill(0);
-            text(pressedText, x, y);
+            text(pressedText, x+w/2, y+h/2);
             return true;
         }else{
             fill(releasedColor);
             rect(x, y, w, h);
             fill(0);
-            text(releasedText, x, y);
+            text(releasedText, x+w/2, y+h/2);
             return false;
         }
     }
