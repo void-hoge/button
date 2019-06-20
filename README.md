@@ -12,7 +12,7 @@ buttonクラスのメンバ関数としてrectButtonとcircleButtonを実装し�
 
 ```
 void draw(){
-  if(rectBottun(/*arguments*/)){
+  if(button1.rectBottun(/*arguments*/)){
     /*do something*/
   }
 }
